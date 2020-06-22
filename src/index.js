@@ -7,8 +7,6 @@ import reducer from './reducer';
 import App from './components/app';
 
 const store = createStore(reducer);
-const { dispatch } = store;
-
 
 ReactDOM.render(
   <Provider store={store}>
